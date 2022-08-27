@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=B612:wght@700&family=Carme&family=Mukta+Vaani&family=Ubuntu+Mono&family=Ubuntu:wght@300&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-image: linear-gradient(135deg, #e95aad 0%, #764ba2 100%);
+}
+
+.ip_address_input {
+  padding: 1em;
+  margin: 4em 0 4em 0;
+  border-radius: 0.7em;
+  text-align: center;
+  outline: none;
+  width: 60%;
+  border: none;
+  font-family: "Carme", sans-serif;
+  position: -webkit-sticky;
+  position: sticky;
+  margin-right: 0.4em;
+  transition: all 0.7s;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.38);
+}
+
+.submit_button {
+  padding: 1em;
+  border-radius: 0.7em;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.38);
+  font-family: "Carme", sans-serif;
+  cursor: pointer;
+  position: -webkit-sticky;
+  position: sticky;
+  outline: none;
+  border: none;
+  transition: all 0.5s;
+}
+.submit_button:hover {
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+form {
+  text-align: center;
+}
+.IP {
+  text-align: center;
+  font-family: "Mukta Vaani", sans-serif;
+  color: white;
+  font-size: 2.1em;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.IP:hover {
+  color: black;
+}
+.IP::-moz-selection {
+  background-color: white;
+}
+.IP::selection {
+  background-color: white;
+}
